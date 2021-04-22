@@ -7,7 +7,7 @@ function DisplayLogo() {
   return (
     <>
       <div className="row justify-content-center">
-        <img className="col-6 col-md-6" src={Logo} />
+        <img className="col-6 col-md-6" src={Logo} alt="Logo" />
       </div>
     </>
   );
