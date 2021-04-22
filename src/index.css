@@ -1,13 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'VT323', monospace;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h2 {
+  margin: 0;
+}
+
+.page-heading {
+  color: red;
+  font-size: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.country-heading, .table-heading {
+  color: green;
+}
+
+/* .country-table {
+  width: 
+} */
+
+.country-heading {
+  font-size: 2rem;
+}
+
+.table-heading, .table-data {
+  font-size: 1.5rem;
+}
+
+.table-body {
+  color: white;
+}
+
+.table-data {
+  width: 33.3%;
+}
+
+.player-data {
+  white-space: normal;
 }
