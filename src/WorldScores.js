@@ -28,10 +28,10 @@ function WorldScores({worldScores}) {
 						<tbody className="table-body">
 							{worldRankOrder.map((player, index) => (
 								<tr>
-									<td>{index+1}</td>
-									<td>{player.score}</td>
-									<td>{player.name}</td>
-									<td>{player.country}</td>
+									<td className="table-data">{index+1}</td>
+									<td className="table-data">{player.score}</td>
+									<td className="table-data">{player.name}</td>
+									<td className="table-data">{player.country}</td>
 								</tr>
 						))}
 						</tbody>
